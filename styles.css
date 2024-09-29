@@ -1,0 +1,245 @@
+/* html, body {
+    height: 100%;
+    width: 100%;
+} */
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    /* width: 200vw; */
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    justify-content: space-between;
+
+}
+
+
+#flexes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container{
+    width: 150vh;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1vh;
+    margin: 5vh;
+    
+}
+
+
+
+
+
+
+
+
+
+
+header,
+footer,
+.hero-sec
+{
+    background-color: #1f2937;
+    /* align-self: stretch; */
+}
+
+
+header{
+    color: #f9faf8;
+
+}
+
+.header-container{
+    width: 150vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+
+
+
+
+
+/* HERO */
+
+
+
+/* .hero-sec{
+} */
+
+
+#hero-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+    width: 150vh;
+
+
+}
+
+
+.main-txt{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sec-txt{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.upper-signup{
+    background-color: #3882f6;
+    color: azure;
+    border-radius: 5px;
+    border-color: azure;
+    font-size: 15px;
+    padding:7px 20px;
+    font-weight: bold;
+
+}
+
+.left{
+    width:60vh ;
+    flex-wrap: wrap;
+
+}
+.hero-img{
+    align-self: flex-end;
+}
+
+
+/* INFO */
+
+
+
+.info-sec{
+    width: 150vh;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vh;
+    align-self: center;
+
+}
+
+/* .container{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vh; 
+}*/
+
+img{
+    margin-left: auto;
+    border-color: #3882f6;
+    display: block;
+}
+
+.info-h1{
+    font-weight: 900;
+}
+.img-p{
+    width: 50vh;
+}
+
+
+
+
+
+
+/* QUOTE */
+
+.quote-sec{
+    background-color: #e5e7eb;
+
+
+}
+
+#quote-container{
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1f2937;
+
+}
+.author{
+    align-self: self-end;
+
+}
+
+
+
+
+/* ACTION  */
+
+/* .action-sec{
+} */
+.action-call{
+    background-color: #3882f6;
+    color: azure;
+
+    padding: 1vh 3vh;
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+.action-h1{
+    border: 0;
+    padding: 0;
+    /* margin: 2vh auto 0 0; */
+
+}
+
+.lower-signup{
+    background-color: #3882f6;
+    color: azure;
+    border-radius: 5px;
+    border-color: azure;
+    font-size: 15px;
+    padding:5px 10px;
+
+}
+
+/* FOOTER */
+footer{
+    color: #f9faf8;
+
+}

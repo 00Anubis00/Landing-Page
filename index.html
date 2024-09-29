@@ -7,43 +7,72 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="logo">Header Logo</div>
-        <div class="links">
-            <ul>
-                <li><a href="#">header link one</a></li>
-                <li><a href="#">header link two</a></li>
-                <li><a href="#">header link three</a></li>
-            </ul>
+
+    <!-- Header -->
+    <header id="flexes">
+        <div class="header-container container">
+            <div class="logo">Header Logo</div>
+            <div class="links">
+                <ul>
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     
     
+    <!-- HERO -->
     
-    
-    <div class="hero-sec">
-        <h1>This Website is awesome</h1>
-        <p>Do not worry about making your project look nice on a mobile device. We’ll learn that later.</p>
-        <button>Sign Up</button>
-        <img alt="image" width="400" height="300" src="https://cdn.pixabay.com/photo/2024/03/09/16/59/typewriter-8622984_1280.jpg">
+    <div class="hero-sec" id="flexes">
+
+
+        <div id="hero-container" class="container">
+            <div class="left">
+                <p class="main-txt">This Website is awesome</p>
+                <p class="sec-txt">Do not worry about making your project look nice on a mobile device. We’ll learn that later.</p>
+                <butto class="upper-signup">Sign Up</button>
+            </div>
+            <div class="right">
+                <img class="hero-img" alt="image" width="400" height="300" src="https://cdn.pixabay.com/photo/2024/03/09/16/59/typewriter-8622984_1280.jpg">
+            </div>
+        </div>
 
 
     </div>
     
 
-    <div class="info-sec">
-        <h1>Some random information</h1>
+    <!-- RANDOM INFO -->
 
-        <div class="img-info">
-            <img alt="img1" src="https://placehold.co/250x150">
-            <p>txt under img Hero text is the statement that appears at the top of a web page. </p>
-            <img alt="img2" src="https://placehold.co/250x150">
-            <p>txt under img Hero text is the statement that appears at the top of a web page. </p>
-            <img alt="img3" src="https://placehold.co/250x150">
-            <p>txt under img Hero text is the statement that appears at the top of a web page. </p>
-            <img alt="img4" src="https://placehold.co/250x150">
-            <p>txt under img Hero text is the statement that appears at the top of a web page. </p>
-      </div>
+    <div class="info-sec" id="flexes">
+        <h1 class="info-h1 ">Some random information</h1>
+
+        <div class="container    img-info">
+            <div class="img-p">
+                <img alt="img1" src="https://placehold.co/250x150">
+                <p>txt under img Hero text is the statement that appears at the top of a web page. </p>
+                
+            </div>
+
+            <div class="img-p">
+                <img alt="img2" src="https://placehold.co/250x150">
+                <p>txt under img Hero text is the statement that appears at the top of a web page. </p>
+                
+            </div>
+
+            <div class="img-p">
+                <img alt="img3" src="https://placehold.co/250x150">
+                <p>txt under img Hero text is the statement that appears at the top of a web page. </p>
+                
+            </div>
+            
+            <div class="img-p">
+                
+                <img alt="img4" src="https://placehold.co/250x150">
+                <p>txt under img Hero text is the statement that appears at the top of a web page. </p>
+            </div>
+        </div>
     </div>    
     
     
@@ -52,14 +81,16 @@
     
     
     
+    <!-- QUOTE SECTION -->
     
-    
-    <div class="quote-sec">
-        <blockquote> Don’t walk in front of me… I may not follow<br>
-            Don’t walk behind me… I may not lead<br>
-            Walk beside me… just be my friend<br>
-        </blockquote>
-            <div class="author"><cite>― Albert Camus</cite></div>
+    <div class="quote-sec" id="flexes">
+        <div class="container " id="quote-container">
+            <blockquote> Don’t walk in front of me… I may not follow<br>
+                Don’t walk behind me… I may not lead<br>
+                Walk beside me… just be my friend<br>
+            </blockquote>
+                <div class="author"><cite>― Albert Camus</cite></div>
+        </div>
 
         
     </div>
@@ -68,13 +99,26 @@
     
     
     
+    <!-- ACTION SECTION -->
     
-    
-    <div class="action-sec"></div>
+    <div class="action-sec" id="flexes">
+        <div class="action-call container">
+            <div class="left-action">
+                <p><strong class="action-h1">Call to action! It's time!</strong><br>
+                Sign up 4 our product u son of a good ppl</p>
+                
+            </div>
+            <button class="lower-signup">Sign Up</button>
+        </div>
 
 
+    </div>
 
 
-    <footer></footer>
+    <!-- FOOTER SECTION -->
+
+    <footer id="flexes">
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
 </body>
 </html>
